@@ -1,0 +1,125 @@
+*
+{
+	 margin: 0;
+	 padding: 0;
+}
+ 
+.video-background{
+	position:absolute;
+	right:0;
+	bottom:0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+@media (min-aspect-ratio:16/9) {
+	.video-background{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio:16/9) {
+	.video-background{
+		width: auto;
+		height: 100%
+	}
+}
+
+header {
+	background: rgba(0, 0, 50, .5);
+	height: 100vh;
+}
+
+.nav {
+	background: rgba(0, 0, 50, .9);
+	height: 80px;
+}
+.logo{
+	margin: 10px 50px;
+	height: 60px;
+}
+.menu {
+	float: right;
+	list-style:none;
+	margin: 20px;
+}
+.menu li {
+	display: inline-block;
+	margin: 10px 5px;
+}
+.menu li a {
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+	border: 1px solid white;
+}
+	
+.menu li a: hover {
+background: coral;
+border : 1px solid coral;	
+transition: .4s;
+}
+.msg{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 90px;
+}
+.msg h1 {
+	font-size: 30px;
+	margin: 25px;
+
+}
+.section
+{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 100px;
+}
+.newjob{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 10px;
+}
+.btn{
+	font-size:18px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 7px 28px;
+	text-decoration: none;
+	border: 1px solid coral;
+	border-radius:25px;
+}
+
+.input{
+     margin:5px;
+	width:550px;
+	border-radius:20px;
+	margin-left:50px;
+	height:100px;
+	background:#080806;
+	color:white;
+	font-size:30px;
+}
+.input:hover{
+	 
+	background:#EBB420;
+	color:black;
+	transition: .4s;
+}
+.footer
+{
+background: rgba(0, 0, 50, .5);
+	
+}
